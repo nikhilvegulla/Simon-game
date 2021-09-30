@@ -1,0 +1,102 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <style>
+        *{
+            background-color: rgb(167, 240, 199);
+            /* vertical-align: auto; */
+            font-family: 'Oswald', sans-serif;
+        }
+        h1
+        {
+            text-align: center;
+
+        }
+        div p{
+            text-align: center;
+            padding: 20px 0 20px 0;
+            /* margin: 20px 0 0 0; */
+            margin: auto;
+            font-size: 24px;
+            width: 60%;
+        }
+        div ol{
+            /* text-align: center; */
+            padding: 20px 0 0 0;
+            /* margin: 20px 0 0 0; */
+            margin: auto;
+            font-size: 24px;
+            width: 60%;
+        }
+        
+        #btn{
+            /* border: 1px solid black; */
+            /* margin: 25px; */
+            /* display: inline-block;
+            text-align: center;
+            height: 30px;
+            width: 200px;
+            border: 1px solid black; */
+            /* border-radius: 20%; */
+        }
+        div a {
+            align-items: center;
+            left: 50%;
+            /* display: block; */
+  /* width: 50%; */
+            margin: auto;
+        /* margin-top: 50px; */
+            margin-left: 45%;
+           
+        }
+        #btn{
+            font-size: 24px;
+        }
+        #btn:hover{
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <h1>Simon Game</h1>
+    <div>
+        <p>
+            Simon is a game in which the computer generates a random color , <br>
+            the user has to remember the pattern everytime  and has to click the respectve buttons .
+            <br> if the user fails , <b>the game ends</b>.
+        </p>
+       
+            
+        
+    </div>
+
+    <div>
+        <h2 style="  text-align: center;">Instructions</h2>
+        <ol>
+            <li>Start pressing any key on the keyboard.</li>
+            <li>The machine will generate a random color (say blue), will be recognized with sound and blink effects.</li>
+            <li>the user has to click on the blue color. </li>
+            <li>the machine will again generates a color (say green).</li>
+            <li>now the user has to click blue followed by green and repeat the process.</li>
+            <li>the game ends when the user fails to click the correct sequence .</li>
+        </ol>
+        
+    </div>
+    <div style="
+    margin-top: 20px;
+">
+        <a href="index.html" >
+            <input type="button" id="btn" value="Back to Game" >
+        </a>
+    </div>
+        
+</body>
+</html>
